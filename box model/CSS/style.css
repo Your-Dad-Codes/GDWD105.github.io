@@ -1,0 +1,15 @@
+#main { margin:25px;}
+
+h1 {background-image: url(./../assets/images/title\ bar.jpeg)}
+
+#intro {font-style: italic; font-weight: 600;padding: 20px;height: 20px; width: 500px; align-content: center;padding-bottom: 50px;}
+
+#content
+{padding: 20px;border-style: groove; background-color: darkgrey;}
+
+.quote {color: cornflowerblue; text-align: center;}
+
+.qcon {font-size: xx-large; font-weight: 400; font-family: fantasy; margin-top: 40px;
+margin-left: 150px;}
+.qcit {font-style: italic; font-family: cursive; text-align: right; margin-top: 10px;}
+#footer {background-color: lightblue; color: blue;font-style: italic; text-align: right;padding-top: 10px;}

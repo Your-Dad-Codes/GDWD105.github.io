@@ -1,4 +1,4 @@
-.
-
-h1 {border-bottom: 1px solid #a2a9b1;}
-
+body {background-color: aqua; margin: 20px;}
+.nickname {border: 1px white solid;}
+p { font-family: sans-serif; font-weight: normal; font-size:medium;}
+.category { float: left;}

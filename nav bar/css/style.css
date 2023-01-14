@@ -1,0 +1,35 @@
+body {height: 3000px;}
+li {display: inline-block; 
+    border:1px solid white; 
+    background-color: white;    
+    padding: 10px;
+    }
+nav { text-align: center;
+    background-color: slategray; 
+    padding: 5px;
+    position: sticky;
+    top: 0;
+
+    }
+ul { padding-left: 0;}
+a {text-align: center; 
+    text-decoration: none;
+    color:black;
+    font-family: sans-serif;
+    padding: 0;
+    }
+a:hover {display: inline-block;
+    color: white; 
+    border:1px solid silver; 
+    background-color:blueviolet;    
+    padding: 20px;
+    border-style: ridge;}
+.home { font-family: sans-serif;
+        border: none;
+        background-color:slategray;}
+.about {font-family: sans-serif;
+        border: none;
+        background-color:slategray;}
+.contact {font-family: sans-serif;
+    border: none;
+    background-color:slategray;}

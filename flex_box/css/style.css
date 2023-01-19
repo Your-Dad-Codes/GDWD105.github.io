@@ -6,8 +6,6 @@ header {
     background-color: lightblue;
     height: 70px;
     border: 2px outset aliceblue;
-    border-bottom: none;
-
 } 
 h1 {color: white;
     display: flex;

@@ -31,9 +31,9 @@ a {
     color: aliceblue;
     padding: 5px;
     text-decoration-color: white;
-a:hover{ font-size:larger;
+}
+a:hover { font-size:larger;
 }    
-    }
 figure { 
         float: left;
         margin-bottom: 100px;

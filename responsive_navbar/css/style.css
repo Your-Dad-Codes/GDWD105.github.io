@@ -1,10 +1,18 @@
 body {
     background-color: black;
-    margin: auto;
+    margin: 0;
+    background-image: url(../assets/family-doing-shopping-2021-08-29-16-45-23-utc.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1500px;
+    background-blend-mode:screen;
 }
 nav{
     background-color: black;
-    margin: auto;
+    margin-top: auto;
+    display:flex;
+    opacity: 100%;    
 }
 header{
     background-color: black;
@@ -14,22 +22,62 @@ header{
     justify-content: center;
     text-decoration: none;
 }
-ul{
+ul {
+    display: flex;
+    justify-content:flex-start;
+    text-decoration: none;
+    list-style: none;
+}
+a {
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+.dropdown {
+    position: absolute;
+    z-index: 99;
+    opacity: 0;
+
+}
+.main:hover .dropdown{
+    display: block;
+    opacity:1;
+    transition: 0.75;
+}
+.shopdrop {
+    position: absolute;
+    z-index: 99;
+    display: none;
+}
+.shop:hover .shopdrop{
+    display: block;
+    background-color: black;
+    opacity: 70%;
+}
+div {
+    height: 1460px;
+}
+footer{ 
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+div {
     display: flex;
     justify-content: center;
-    padding: 15px;
-    margin: auto;
-    gap: 15px;
-    
+    align-items: center;
 }
-.menu {
-        position: absolute;
-        z-index: 99;
-        display: none;
+section {
+    border: 3px outset slategrey;
+    width: 50%;
+    height: 20%;
+    background-color: aliceblue;
+    font-family: sans-serif;
+    font-size: larger;
+    margin: 10px;
+    padding: 40px;
+   text-align: center;
 }
-.drop_shop:hover .drop_down{
-    display: block;
-}
-.drop_blog:hover .drop_down{
-        display: block;
+h1 {
+    color: white;
 }

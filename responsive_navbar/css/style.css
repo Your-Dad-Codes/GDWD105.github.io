@@ -26,20 +26,58 @@
     height: 90px;
     width: 300px;
 }
+.content3{
+    border: 1px solid none;
+    background-color: white;
+    background-image:url(../assets/child-in-jeans-and-casual-clothes-have-fun-indoors-2021-08-30-17-46-22-utc.jpg); 
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.3);
+    height: 90px;
+    width: 300px;}
+
+    .content4{
+        border: 1px solid none;
+        background-color: white;
+        background-image:url(../assets/mother-and-child-in-winter-clothes-play-in-winter-2021-08-30-17-43-27-utc.jpg); 
+        background-position: right;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.3);
+        height: 90px;
+        width: 300px;}
+
+.add-button { display: flex;
+              height: auto;
+              width: 300px;
+              gap: 40px;
+              padding-top: 5px;
+              padding: 40px;
+              justify-content: center;
+             flex-direction: column;
+}
 .card {
         color: black;
         font-size: small;
         padding: px;
 }
-body {
-        margin:0
-    }
+body { margin:0;
+        background-image: url(../assets/family-doing-shopping-2021-08-29-16-45-23-utc.jpg);
+    background-size: cover;
+}
+
 hr { border-color: grey;
      border-style: outset;
     }
 main { 
-    background-image: url(../assets/family-doing-shopping-2021-08-29-16-45-23-utc.jpg);
-    background-size: 100%;
+   
     margin: 20px;
     margin-top: 0;
     padding: 40px;
@@ -94,7 +132,8 @@ header {
     padding: 0;
     }
     div{
-        height: 900px;
+        height:600px;
+        width: auto;
     }
 footer {
     position: stick;
@@ -102,6 +141,4 @@ footer {
     color: white;
     text-align: center;
     margin: 0;
-    padding: 10px;
-    st
-}
+    padding: 10px;}

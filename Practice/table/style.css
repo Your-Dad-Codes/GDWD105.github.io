@@ -1,0 +1,33 @@
+.header { color: white;
+        background-color:
+        blue; 
+        width: 100px;
+        padding: none;
+        margin: auto;
+
+}
+
+table{ 
+    border: 2px black solid;
+}
+th{ border: 1px black solid;
+    background-color: lightblue;
+    color: white;}
+td{ border: 1px black solid;}
+tfoot{background-color: aqua;
+        border-collapse:collapse;
+        border-spacing: 0px;
+}
+
+.footer{ border: none;
+        background-color: aqua;
+}
+.f1{
+    border: none;
+    background-color: aqua;
+    width: 200px;
+}
+td:hover {
+    background-color: lightblue;
+}
+tr:nth-child(even) { background-color: blueviolet;}

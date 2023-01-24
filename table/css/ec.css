@@ -1,0 +1,37 @@
+div{display: flex;
+    height: 150px;
+    width: 650px;
+   
+    background-image: url(../assets/Hit\ by\ Heart\ in\ Love\ Day\ Illustration_Hitheart.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 75px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    box-shadow: 4px 4px 4px 0px grey;
+}
+p{ 
+    color: white;
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+    text-decoration: underline;
+    text-shadow: 4px 4px 4px 0px black ;
+}
+.lower{ background-color: rgb(254, 221, 226);
+    border: 5px none lightcoral;
+    box-shadow: 4px 4px 4px 0px grey;
+}
+tr{ border: 2px solid lightcoral;
+}
+th{ 
+    border: .5px solid lightcoral;
+    padding: 15px;
+
+}
+td{ 
+    border: .5px solid lightcoral;
+    padding: 25px;
+}

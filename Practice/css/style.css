@@ -1,25 +1,26 @@
-h1 {background-color: black; color: crimson; margin: 0px
+.container {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-rows: auto;
+     grid-template-areas: "header header header header"
+     "main main main sidebar" 
+     "footer footer footer footer";
+}
+header{
+     grid-area: header;
+     background-color: orange;
+}
+nav {
+     grid-area: sidebar;
+     background-color: red;
+}
+main{ 
+     grid-area: main;
+     background-color: blue;
+}
+footer{
+     grid-area: footer;
+     background-color: green;
 }
 
-body {background-color: chartreuse; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin: 5px
-}
-
-#dave { 
-    background-color: cadetblue; border: pink 3px dotted;
-    margin-top: 20px;
-    margin-left: 200px;
-    padding: 50px;
-    text-align: center;
-    height: 450px;
-    width: 400px;
- }
-
- p {color: deeppink;
-}
-p1 { color: beige;}
-
-.highlite 
-{
-     color: black; background-color: yellow; font-style: italic; font-size: larger; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
 

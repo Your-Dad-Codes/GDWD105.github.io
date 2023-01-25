@@ -1,0 +1,63 @@
+.menu{
+    display:flex;
+    flex-direction: row;
+    position:absolute;
+    z-index: 99;
+    background-color: none;
+    padding: 10px;
+    margin: -15px
+}
+.drop{ display: none;
+    position:absolute;
+    z-index: 99;
+    background-color: none;
+    padding: 20px;
+    margin: 5px;
+    font-family: sans-serif;
+}
+.menu:hover .drop{
+padding: 15px;
+display: block;
+transition: 1s;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+#sitegrid{
+    display: grid;
+    grid-template-columns: 1fr 800px 1fr;
+    grid-template-areas: "nav nav nav"
+    "gallery gallery gallery";
+}
+nav{
+    grid-area: nav;
+    margin: 50px;
+    background-color: aliceblue;
+    gap: 5px;
+    height: 50px;
+    box-shadow: 0 0 0 3px lightgrey;
+
+}
+#gallery{
+    grid-area: gallery;
+    text-align: center;
+}
+#gallery1, #gallery2, #gallery3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#gallery1 img{
+    width: 100%;
+}
+#gallery2 img{
+    width: 100%;
+}
+#gallery3 img{
+    width: 100%;
+}
+
+

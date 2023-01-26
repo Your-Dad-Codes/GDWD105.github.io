@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>Forms Exercise</header>
+
+    <!-- Text input -->
+    
+        <form action="/form/submit" method="get">
+            <fieldset>
+                <legend>Enter Your Info</legend>
+                    <div class="text"> 
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                        <input type="tel" placeholder="Mobile Number" id="phone">
+                        <input type="email" name="user_email" placeholder="Enter your email">
+                        <input type="submit" value="Submit">
+                    </div>
+            </fieldset>
+           
+           <!-- selection input -->
+        <div class="select"> 
+                <label for="language">What Do You Perfer?</label>
+                    <select name="language" id="language">
+                        <option value="none">...</option>
+                        <option value="c++">C++</option>
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                        <option value="php">PHP</option>
+                        <option value="js">JavaScript</option>
+                    </select>
+
+            <input type="submit" value="confirm">
+                <label for="fav-color">What's your Favorite Color?</label>
+                    <select name="fav-color" id="fav-color">
+                        <option value="none">...</option>
+                        <option value="red">Red</option>
+                        <option value="blue">Blue</option>
+                        <option value="green">Green</option>
+                        <option value="yellow">Yellow</option>
+                        <option value="purple">Purple</option>
+                    </select>
+
+            <input type="submit" value="confirm">
+                <label for="option">Do You Like Me?</label>
+                    <select name="like-me" id="like-me">
+                        <option value="#"></option>
+                        <option value="positive">Yes</option>
+                        <option value="negative">No</option>
+                    </select>
+            <input type="submit" value="confirm">
+        </div>
+            
+            <!-- Radio button input -->
+            <div class="radio">
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">JavaScript</label>
+            </div>
+        </form>
+     
+    
+</body>
+</html>

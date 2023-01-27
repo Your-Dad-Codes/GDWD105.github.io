@@ -4,71 +4,122 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Forms</title>
+    <link rel="stylesheet" href="./css/fb.css">
+    <title>Facebook form </title>
 </head>
 <body>
-    <!-- Header -->
-    <header>Forms Exercise</header>
+    <h1>facebook</h1>
 
-    <!-- Text input -->
-    
-        <form action="/form/submit" method="get">
-            <fieldset>
-                <legend>Enter Your Info</legend>
-                    <div class="text"> 
-                        <input type="text" placeholder="First Name">
-                        <input type="text" placeholder="Last Name">
-                        <input type="tel" placeholder="Mobile Number" id="phone">
-                        <input type="email" name="user_email" placeholder="Enter your email">
-                        <input type="submit" value="Submit">
-                    </div>
-            </fieldset>
-           
-           <!-- selection input -->
-        <div class="select"> 
-                <label for="language">What Do You Perfer?</label>
-                    <select name="language" id="language">
-                        <option value="none">...</option>
-                        <option value="c++">C++</option>
-                        <option value="html">HTML</option>
-                        <option value="css">CSS</option>
-                        <option value="php">PHP</option>
-                        <option value="js">JavaScript</option>
-                    </select>
-
-            <input type="submit" value="confirm">
-                <label for="fav-color">What's your Favorite Color?</label>
-                    <select name="fav-color" id="fav-color">
-                        <option value="none">...</option>
-                        <option value="red">Red</option>
-                        <option value="blue">Blue</option>
-                        <option value="green">Green</option>
-                        <option value="yellow">Yellow</option>
-                        <option value="purple">Purple</option>
-                    </select>
-
-            <input type="submit" value="confirm">
-                <label for="option">Do You Like Me?</label>
-                    <select name="like-me" id="like-me">
-                        <option value="#"></option>
-                        <option value="positive">Yes</option>
-                        <option value="negative">No</option>
-                    </select>
-            <input type="submit" value="confirm">
+    <form action="text">
+        <h2>Create a new account</h2>
+        <h3>It's quick and easy</h3>
+<hr>
+        <div class="name">
+            <input type="text" class="text" data-type="text" name="firstname" value="" required="true" placeholder="First name">
+            <input type="text" class="text" data-type="text" name="lastname" value="" required="true" placeholder="Last name" id="lastname">
+            <input type="text" class="text" data-type="text" name="num-email" value="" required="true" placeholder="Mobile number or email" id="num-email">
+            <input type="password" class="text" data-type="password" autocomplete="new-password" name="passwd" id="passwd" required="true" placeholder="New password">
         </div>
-            
-            <!-- Radio button input -->
-            <div class="radio">
-                <input type="radio" id="html" name="fav_language" value="HTML">
-                <label for="html">HTML</label><br>
-                <input type="radio" id="css" name="fav_language" value="CSS">
-                <label for="css">CSS</label><br>
-                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-                <label for="javascript">JavaScript</label>
+<!-- Birthday Verification -->
+<br>
+        <div class="mtm mbs _2_68">Birthday</div>
+            <div>
+                <select label="month" name="bday_month" id="bdaymonth" title="bdaymonth" class="select">
+                    <option value="1" selected="1">Jan</option>
+                    <option value="2">Feb</option>
+                    <option value="3">Mar</option>
+                    <option value="4">Apr</option>
+                    <option value="5">May</option>
+                    <option value="6">Jun</option>
+                    <option value="7">Jul</option>
+                    <option value="8">Aug</option>
+                    <option value="9">Sep</option>
+                    <option value="10">Oct</option>
+                    <option value="11">Nov</option>
+                    <option value="12">Dec</option>
+                </select>  
+                <select label="Day" name="bday_day" id="bday_day" title="bday_day" class="select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+                <select label="bday_year" name="bday_year" id="bday_year" title="bday_year" class="select">
+                    <option value="2023" selected="1">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                    <option value="2011">2011</option>
+                    <option value="2010">2010</option>
+                    <option value="2009">2009</option>
+                    <option value="2008">2008</option>
+                    <option value="2007">2007</option>
+                    <option value="2006">2006</option>
+                    <option value="2005">2005</option>
+                    <option value="2004">2004</option>
+                    <option value="2003">2003</option>
+                    <option value="2002">2002</option>
+                    <option value="2001">2001</option>
+                    <option value="2000">2000</option>
+                </select>          
             </div>
+<br>            
+            <div class="gender">Gender</div>
+                <label class="button" for="gender">Female </label>
+                <input type="radio" class="button" name="gender" value="1" id="gender">
+                    <label class="button" for="gender">Male</label>
+                    <input type="radio" class="button" name="gender" value="2" id="gender">
+            </div>
+<br>
+            <div>
+                <p class="legal">By clicking Sign Up, you agree to our Privacy Policy Cookies Policy.You may receive SMS Notifications from us and can opt out any time.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae saepe id delectus fugit iusto, ex officiis voluptate ea at provident accusamus asperiores? Atque repudiandae praesentium, esse, laboriosam neque ducimus amet, quia dignissimos soluta minus a! Odit quae similique, provident aspernatur reprehenderit velit, laborum error, sequi repellat maxime unde quod numquam!
+                </p>
+            </div>
+<br>
+            <div>
+                <button type="submit" class="submit" name="submit" id="submit">SUBMIT</button>
+            </div>
+
         </form>
-     
+
+
+    </form>
     
 </body>
 </html>

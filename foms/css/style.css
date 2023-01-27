@@ -1,57 +1,10 @@
-body{
-height: 100%;
-background-color: #152733;
-overflow: hidden;
-}
-header{
-    color: white;
-    font-family: sans-serif;
-    font-weight: 600;
-    margin: auto;
-    padding: 20px;
-}
-.text{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    position: relative;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding: 60px;
 
+input[type=text]:invalid{
+    border: red 2px solid;
 }
-.select{
-    border: 3px solid #fff;
-    padding: 40px;
-    display: flex;
-    margin: auto;
-    color: #fff;
-    font-family: sans-serif;
-    font-weight: 200;
-    text-align: right;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 100px;
-    border-radius: 10px;
-    text-align: left;
-    transition: all 0.9s ;
+input[type=number]:invalid{
+    border: red 2px solid;
 }
-.radio{
-   color: #fff;
-    padding: 40px;
-    display: flex;
-    margin: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-legend{
-    color: #fff;
-    max-width: 150px;
-    margin: auto;
-    padding: 20px;
-
+input[type=text]:valid{
+    border: green 2px solid;
 }

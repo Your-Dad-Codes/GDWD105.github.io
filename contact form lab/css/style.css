@@ -9,10 +9,43 @@ body {
 }
 
 .contact-form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: auto;
+	padding: 5px;
+	margin-top: 200px;
+
+}
+.group-title h3{
+	position:relative;
+	color:#ffffff;
+	margin-bottom:10px;	
+	text-transform:uppercase;
+	display: block;
 	height: auto;
 	width: 600px;
 	padding: 5px;
 	margin: 20px;
+	position:relative;
+    font-family: "Poppins", sans-serif;
+	font-weight:normal;
+    font-size: 40px;
+	margin-left:120px;
+    padding: 15px;
+	background:none;
+	line-height: 16px;
+
+}
+
+
+.form-text{
+	display:block;
+	height: auto;
+	width: 600px;
+	padding:10px;
+	margin-left: 95px;
 }
 a {
 	text-decoration:none;
@@ -20,18 +53,6 @@ a {
 	color:#1543fd;
 }
 
-h3{
-	position:relative;
-    font-family: "Poppins", sans-serif;
-	font-weight:normal;
-    font-size: 40px;
-	margin:25px;
-    padding: 15px;
-	background:none;
-	line-height: 1.6px;
-
-
-}
 
 textarea{
 	overflow:hidden;
@@ -39,14 +60,14 @@ textarea{
 
 p{
 	position:relative;
-	line-height:1.8px;	
+	line-height:18px;	
 	margin: 25px;
 	padding: 15px;
 }
 
 .container{
 	position:static;
-	max-width:600px;
+	width:600px;
 	padding:0px 15px;
 	margin:0 auto;
 }
@@ -68,14 +89,19 @@ ul,li{
 	font-weight: 600;
 	overflow: hidden;
 	text-transform: uppercase;
-	border:2px solid rgba(255,255,255,0.20);
+	border:2px solid grey;
 	font-family: 'Poppins', sans-serif;
 }
-.group-title h3{
-	position:relative;
-	color:#ffffff;
-	margin-bottom:10px;	
-	text-transform:uppercase;
+.btn-style:hover{
+	background-color:white;
+	color: black;
+	padding: 14px 46px;
+	font-weight: 600;
+	overflow: hidden;
+	text-transform: uppercase;
+	border:2px solid grey;
+	font-family: 'Poppins', sans-serif;
+
 }
 
 .form-text{
@@ -93,9 +119,10 @@ ul,li{
 	margin-bottom:20px;
 }
 
-.form-group input[type="text"],
-.form-group input[type="tel"],
-.form-group input[type="email"],
+.form-group input[type="text"]:valid,
+.form-group input[type="tel"]:valid,
+.form-group input[type="select"],
+.form-group input[type="email"]:valid,
 .form-group select{
 	position:relative;
 	display:block;
@@ -108,13 +135,33 @@ ul,li{
 	background:black;
 	font-family: 'Poppins', sans-serif;
 	border:1px solid gray;
+	
 }
-
+.form-group input[type="text"]:invalid,
+.form-group input[type="tel"]:invalid,
+.form-group input[type="select"],
+.form-group input[type="email"]:invalid,
+.form-group select{
+	position:relative;
+	display:block;
+	width:100%;
+	line-height:28px;
+	padding:10px 25px;
+	color:grey;
+	height:60px;
+	font-size:16px;
+	background:black;
+	font-family: 'Poppins', sans-serif;
+	border:1px solid red;
+	
+}
 .form-group input[type="text"]:focus,
 .form-group input[type="tel"]:focus,
+.form-group input[type="select"]:focus,
 .form-group input[type="email"]:focus,
-.form-group textarea:focus{ 
+.form-group textarea:focus:invalid{ 
     border-color:white;
+	border-color: red;
 }
 
 .form-group textarea{

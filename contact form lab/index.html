@@ -10,22 +10,46 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     </head>
         <body>
-                        <!-- Form Column -->
-                        <div class="form-column col-lg-8 col-md-12 col-sm-12">
-                            <div class="inner-column">
                                 <!-- Contact Form -->
                                 <div class="contact-form">
                                     <div class="group-title"><h3>MAKE AN APPOINTMENT</h3></div>
                                     <div class="form-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus explicabo, laboriosam minima quo corrupti inventore unde a aperiam commodi molestias iusto delectus officiis veritatis eaque quae blanditiis cupiditate quidem adipisci.</div>
                                     <!-- Contact Form -->
+
                                     <form method="post" action="https://getform.io/f/9f25f22b-0415-4e6e-8a38-6b05a9f997d4" id="contact-form">
-                                        <div class="row clearfix">
-                                            
+                                        <div>
                                             <div class="form-group">
-                                                <input type="text" name="username" placeholder="Full Name" required="">
+                                                <input type="text" name="username" placeholder="Full Name" required=""  minlength="7" maxlength="35">
                                             </div>
                                             <div class="form-group">
-                                                <input type="tel" name="phone" placeholder="Mobile Number" required="">
+                                                <select name="month" id="month" placeholder="Jan" required="">
+                                                        <option value="1">Jan</option>
+                                                        <option value="2">Feb</option>
+                                                        <option value="3">Mar</option>
+                                                        <option value="4">Apr</option>
+                                                        <option value="5">May</option>
+                                                        <option value="6">Jun</option>
+                                                        <option value="7">Jul</option>
+                                                        <option value="8">Aug</option>
+                                                        <option value="9">Sep</option>
+                                                        <option value="10">Oct</option>
+                                                        <option value="11">Nov</option>
+                                                        <option value="12">Dec</option>
+                                                </select>        
+                                            </div>
+                                            <div class="form-group">
+                                                <select name="year" id="year" placeholder="2005" required="">
+                                                    <option value="1">2005</option>
+                                                    <option value="2">2004</option>
+                                                    <option value="3">2003</option>
+                                                    <option value="4">2002</option>
+                                                    <option value="5">2001</option>
+                                                    <option value="6">2000</option>
+                                                    <option value="7">Late 1900's</option>
+                                            </select>        
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="tel" name="phone" placeholder="Mobile Number" required="" min="1" minlength="0"maxlength="12">
                                             </div>
                                             
                                             <div class="form-group">
@@ -33,7 +57,7 @@
                                             </div>
                                             
                                             <div class="form-group">
-                                                <textarea class="darma" name="message" placeholder="Your Message"></textarea>
+                                                <textarea class="darma" name="message" placeholder="Your Message" min="1" minlength="4" maxlength="1000"></textarea>
                                             </div>
                                             
                                             <div class="form-group">
@@ -57,9 +81,9 @@
             <!-- End Contact Page Section -->
             
             <!-- Footer -->
-            <footer class="main-footer" style="background-color: black;">
+            <footer class="main-footer">
                 <div class="auto-container">
-                    <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                    <div class="footer-column">
                         <ul class="info-list">
                             <li><span>Address:</span> 123 Main St Anytown</li>
                             <li><span>Phones:</span>

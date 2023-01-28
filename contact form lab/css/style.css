@@ -6,6 +6,8 @@ body {
 	font-weight:400;
     padding: 10px;
     margin: 20px;
+	max-width: 600px;
+	max-height: auto;
 	background:black;
 }
 
@@ -35,6 +37,8 @@ textarea{
 p{
 	position:relative;
 	line-height:1.8px;	
+	margin: 25px;
+	padding: 15px;
 }
 
 .container{

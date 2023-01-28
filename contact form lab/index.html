@@ -1,65 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
-</head>
-    <body>
-<!-- Form TITLE -->
-    <div class="contact-form">
-            <div class="title"><h3>MAKE AN APPOINTMENT</h3></div>
-            <div class="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, veritatis consectetur ratione earum atque obcaecati quae dolor ipsum voluptates eos excepturi! Ex minus sint reprehenderit?
-            </div>
-<!-- Contact Form -->
-    <main class="form">
-        <form method="post" action="https://getform.io/f/9f25f22b-0415-4e6e-8a38-6b05a9f997d4" class="form" id="contact-form">
-            <div class="row">
-                <label for="username" class="fname" id="fname">
-                    <input type="text" name="username" placeholder="First name" required="">
-                </label>
-                <label for="username" class="lname" id="lname">
-                    <input type="text" name="username" placeholder="Last name" required="">
-                </label>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact Form Lab</title>
+        <!-- Stylesheets -->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    </head>
+        <body>
+                        <!-- Form Column -->
+                        <div class="form-column col-lg-8 col-md-12 col-sm-12">
+                            <div class="inner-column">
+                                <!-- Contact Form -->
+                                <div class="contact-form">
+                                    <div class="group-title"><h3>MAKE AN APPOINTMENT</h3></div>
+                                    <div class="form-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus explicabo, laboriosam minima quo corrupti inventore unde a aperiam commodi molestias iusto delectus officiis veritatis eaque quae blanditiis cupiditate quidem adipisci.</div>
+                                    <!-- Contact Form -->
+                                    <form method="post" action="https://getform.io/f/9f25f22b-0415-4e6e-8a38-6b05a9f997d4" id="contact-form" novalidate="novalidate">
+                                        <div class="row clearfix">
                                             
-                <div class="email">
-                    <input type="email" name="email" placeholder="Email" required="">
-                </div>
-
-                <div class="num">
-                    <input type="tel" name="num" placeholder="Mobile number" required="">
-                </div>
+                                            <div class="form-group">
+                                                <input type="text" name="username" placeholder="Full Name" required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="tel" name="phone" placeholder="Mobile Number" required="">
+                                            </div>
                                             
-                <div class="area" id="area">
-                    <textarea class="darma" name="message" placeholder="Your Message"></textarea>
-                </div>
+                                            <div class="form-group">
+                                                <input type="email" name="email" placeholder="Email" required="">
+                                            </div>
                                             
-                <div class="button" id="button">
-                    <button class="submit" type="submit" name="submit"><span class="txt">SEND MESSAGE</span>
-                    </button>
-                    <span class="data">* Personal data will be encrypted</span>
-                </div>
+                                            <div class="form-group">
+                                                <textarea class="darma" name="message" placeholder="Your Message"></textarea>
+                                            </div>
                                             
-            </div>
-        </form>              
-    </main>
-                
-<!-- Footer -->
-    <footer>
-        <div>
-            <ul class="info-list">
-                <li><span>Address:</span>123 main st, Anytown</li>
-                <li><span>Phones:</span>
-                    <a href="tel:123-456-7889">123-456-7889</a><br>
-                    <a href="tel:123-456-7880">123-456-7880</a>
-                </li>
-                <li><span>Working Hours:</span>Monday-Sunday: 7:00am - 9:00pm</li>
-                <li><span>Email:</span><a href="mailto:info@labproject.com">info@labproject.com</a></li>
-            </ul>
+                                            <div class="form-group">
+                                                <button class="btn-style" type="submit" name="submit-form"><span class="txt">SEND MESSAGE</span></button>
+                                                <span class="data">* Personal data will be encrypted</span>
+                                            </div>
+                                            
+                                        </div>
+                                    </form>
+                                        
+                                </div>
+                                <!-- End Contact Form -->
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+            <!-- End Contact Page Section -->
+            
+            <!-- Footer -->
+            <footer class="main-footer" style="background-color: black;">
+                <div class="auto-container">
+                    <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                        <ul class="info-list">
+                            <li><span>Address:</span> 123 Main St Anytown</li>
+                            <li><span>Phones:</span>
+                                <a href="#">(123)-456-78-89</a><br>
+                                <a href="#">(123)-456-78-80</a>
+                            </li>
+                            <li><span>Working Hours:</span>Monday-Sunday: 7:00am - 9:00pm</li>
+                            <li><span>Email:</span><a href="#">Yourdad@codes.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+            
         </div>
-    </footer>
 </body>
 </html>

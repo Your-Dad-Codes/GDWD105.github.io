@@ -9,14 +9,11 @@ body {
 	background:black;
 }
 
-
 a {
 	text-decoration:none;
 	cursor:pointer;
 	color:#1543fd;
 }
-
-
 
 h3{
 	position:relative;
@@ -46,7 +43,6 @@ p{
 	padding:0px 15px;
 	margin:0 auto;
 }
-
 
 ul,li{
 	list-style:none;

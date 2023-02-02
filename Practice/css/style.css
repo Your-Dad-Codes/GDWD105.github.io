@@ -18,6 +18,14 @@ main{
      grid-area: main;
      background-color: blue;
 }
+.carousel-item :active{
+     object-fit: cover;
+     height: 100%;
+}
+.carousel-item {
+     height: 60vh;
+}
+
 footer{
      grid-area: footer;
      background-color: green;

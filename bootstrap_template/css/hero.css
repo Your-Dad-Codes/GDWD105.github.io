@@ -1,5 +1,5 @@
 .site-hero{
-    background-image:url(../assets/branding/wave.jpg);
+    background-image:url(../assets/branding/341-05-orange-neon-glow-perf-rectangle-frame.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -16,7 +16,7 @@
     font-weight:bolder;
 }
 .hero-text h2 {
-    color: rgb(226, 53, 229);
+    color: rgb(35, 33, 30);
     margin-top: 0;
     font-size: 4em;
     font-style: italic;
@@ -30,6 +30,6 @@
 span{
     font-size: 2em;
     text-decoration: underline;
-    color: teal;
-    text-shadow: 0px 1px 10px lightpink;
+    color: rgb(253, 128, 2);
+    text-shadow: 0px 1px 8px rgb(255, 183, 49);
 }

@@ -20,8 +20,7 @@ a {
   color:#e1a177;
 }
 .btn {
-  background-color: #f8feff;
-  box-shadow: 3px 4px 15px 1px #e3f1fa ;
+  background-color:#e1a177;
   border-radius: 0px;
 }
 
@@ -29,24 +28,54 @@ a {
 
 body {
   margin:0;
-  color:#2e4c83;
-  border-color: #2e4c83;
+  color:#ffffff;
+  border-color:none;
+}
+
+
+.diet h3{
+   color: #e1a177;
+   font-family:'Lobster', cursive;
+   font-size:60px;
+   display: inline-flex;
+   margin: 15px;
+   padding: 1px;
+}
+.diet h5{
+  color: #e1a177;
+  font-family:'Lobster', cursive;
+  font-size:40px;
+  display: inline-flex;
+  margin: auto;
+  padding: 1px;
+}
+
+.diet{
+  font-family:'Montserrat', sans-serif;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding:10px;
+  margin: 15px;
 }
 
 header {
-  border-bottom: 2px solid #2e4c83;
+  border-bottom: 2px solid white;
   display:flex;
   align-items: center;
   justify-content: space-between;
   padding:50px;
   background-color:#f8feff;
-  color:#2e4c83;
+  color:white;
 }
 .header-top{
   width:15%;
 }
 nav {
-  border-bottom: 2px solid #2e4c83;
+  border-bottom: 2px solid #e1a177;
   background-color:#f8feff;
   position:sticky;
   top:0px;
@@ -63,23 +92,24 @@ nav ul {
   margin:0px;
 }
 
+
 nav li {
   list-style-type: none;
 }
 nav a {
-  color:#192e55;
+  color:#ffffff;
   text-decoration: none;
   padding:5px 20px;
   padding-left:2.5px;
-  display:inline-block;
+  display:inline-flex;
 }
 nav a::before {
   content:"|";
   padding-right:5px;
 }
 nav a:hover {
-  background-color: #192e55;
-  color:#f8feff;
+  background-color: white;
+  color:black;
 }
 .nav-contact {
   display:flex;
@@ -89,7 +119,7 @@ nav a:hover {
   width:33%;
 }
 .nav-contact:hover {
-  color:#192e55;
+  color:white;
 }
 .nav-contact ion-icon{
   margin-right:10px;
@@ -103,7 +133,7 @@ nav a:hover {
   width:100%;
 }
 .site_title {
-  font-family: "Bebas Neue";
+  font-family:'Lobster', cursive;
   font-size: 4em;
   font-weight: 900;
   margin-bottom:0;
@@ -116,7 +146,7 @@ nav a:hover {
   margin:0px;
 }
 #site_logo:hover,.site_title:hover,.site_quote:hover {
-  color:#192e55;
+  color:#e1a177;
   cursor:pointer;
 }
 
@@ -132,7 +162,7 @@ main {
   background-color: #ffffff;
   border:2px solid #e1a177;
   padding:15px;
-  color:#2e4c83;
+  color:#e1a177;
   box-shadow: 2px 3px 1px 1px black;
   margin:50px 0px;
 }
@@ -163,8 +193,8 @@ main {
 /* Footer ~~~~~~~ */
 .footer-hat {
   height:30px;
-  background-color: #f8feff;
-  border-top:2px solid #2e4c83;
+  background-color: white;
+  border-top:2px solid white;
 }
 footer {
   background-color: #e1a177;
@@ -222,6 +252,6 @@ footer h4 {
   line-height: 0.65;
   padding-bottom: 0px;
   margin-bottom: 0px;
-  font-family: "Lobster";
+  font-family: "Lobster", cursive;
   font-weight: bold;
 }

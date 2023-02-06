@@ -89,8 +89,12 @@ header {
   }
   
 .header-top{
-  width:15%;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 nav {
   border-bottom: 2px solid #ffffff;
   background-color:#e1a177;

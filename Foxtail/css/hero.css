@@ -179,7 +179,7 @@ main {
 /* contents: */
 
 .content {
-  background-color: #f8feff;
+  background-color: white;
   border:2px solid #e1a177;
   padding:15px;
   color:#e1a177;
@@ -208,14 +208,54 @@ main {
 .content-content {
   padding:20px;
 }
+
+.carousel{
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-inner{
+  display: contents;
+  justify-content: center;
+  align-items: center;
+}
 .carousel-item :active{
   object-fit: cover;
   height: 100%;
 }
 .carousel-item {
   height: 60vh;
+  width: 30em;
 }
 
+element.style {
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.carousel-control-next {
+    color: #6c757d;
+}
+.carousel-control-next {
+    right: 0;
+}
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    width: 15%;
+    padding: 0;
+    color: #6c757d;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    transition: opacity .15s ease
+}
 
 /* Footer ~~~~~~~ */
 .footer-hat {
@@ -236,12 +276,30 @@ footer h4, footer h5, footer h6 {
 
 }
 .footer-left {
-  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right:25px;
   margin-bottom:50px;
+  padding: 30px;
+  width: 30%;
+}
+.footer-center{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left:15px;
+  margin-right:15px;
+  margin-bottom: 50px;
+  padding: 30px;
+  width: 30%;
 }
 .footer-right {
-  flex:3;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
   margin-left:25px;
+  margin-bottom: 50px;
+  padding: 30px;
+  width: 30%;
 }
 footer h4 {
   font-size: 2em;

@@ -161,6 +161,19 @@ main {
 
 /* contents: */
 
+.btn-1{
+  color: #fff;
+  background-color: #e1a177;
+  border-color: #e1a177;
+}
+
+.btn-1 :hover{
+  color: black;
+  background-color: white;
+  border-color: none;
+  box-shadow:rgb 130,138,145;
+}
+
 .content {
   background-color: #ffffff;
   border:2px solid #e1a177;
@@ -189,9 +202,32 @@ main {
   font-style: italic;
 }
 .content-content {
-  padding:20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+
 }
 
+.conatainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  row-gap: 5em;
+  column-gap: 5em;
+  padding: 10px;
+  margin: 5px;
+}
 
 /* Footer ~~~~~~~ */
 .footer-hat {

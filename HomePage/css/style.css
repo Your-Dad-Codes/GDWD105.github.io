@@ -1,0 +1,55 @@
+
+nav {
+    border-bottom: 2px solid #8d1010;
+    background-color:rgb(28, 22, 33);
+    position:sticky;
+    top:0px;
+    box-shadow: 0px 3px 3px 0px rgb(0,0,0,0.3);
+    display:flex;
+    justify-content: space-between;
+    z-index: 99;
+    font-weight: 500;
+  }
+  
+  nav ul {
+    display:flex;
+    padding-left:0;
+    margin:0px;
+  }
+  
+  
+  nav li {
+    list-style-type: none;
+  }
+  nav a {
+    color:black;
+    text-decoration: none;
+    padding:5px 20px;
+    padding-left:2.5px;
+    display:inline-flex;
+  }
+  nav a::before {
+    content:"|";
+    padding-right:5px;
+  }
+  nav a:hover {
+    background-color: black;
+    color:white;
+  }
+  .nav-contact {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    height:auto;
+    width:33%;
+  }
+  .nav-contact:hover {
+    color:white;
+  }
+  .nav-contact ion-icon{
+    margin-right:10px;
+  }
+  .nav-contact p {
+    margin:0;
+    margin-right: 10px;
+  }

@@ -31,6 +31,7 @@
   display: flex;
   justify-content: left;
   align-items: center;
+  text-decoration: none;
 }
 
 .hero-text{
@@ -41,9 +42,22 @@
   font-size: 5em;
   gap: 2em;
   text-decoration: none;
+  text-decoration-line: none;
   list-style: none;
-  color: lightskyblue;
+}
+
+ul{
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+a{
+  list-style-type:none;
+  text-decoration-line: none;
+  text-decoration: none;
 }
 li{
   list-style-type: none;
+  text-decoration: none;
+  font-style: none;
 }

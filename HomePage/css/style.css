@@ -21,6 +21,11 @@
 .navbar-brand {
   padding: 2em;
 }
+i{
+  color: cadetblue;
+  padding-right: 2em;
+  gap: 15px;
+}
 
 .site-hero{
   background-image:url(../assets/44\ [Converted].png);
@@ -43,7 +48,11 @@
   text-decoration: none;
   list-style: none;
   color: lightskyblue;
+  text-decoration: none;
 }
-li{
-  list-style-type: none;
+
+.menu {
+  list-style: none;
+  text-decoration: none;
+  color: lightskyblue;
 }

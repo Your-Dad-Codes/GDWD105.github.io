@@ -5,6 +5,8 @@
   color:cadetblue;
   border-bottom: lightyellow;
   box-shadow: grey 0px 1px 8px 2px;
+  top: 0px;
+  position:sticky;
 }
 
 .title{
@@ -55,4 +57,23 @@ i{
   list-style: none;
   text-decoration: none;
   color: lightskyblue;
+  list-style-type: none;
+  padding-right: 2em;
+  margin: 1em;
+}
+li{
+  list-style: none;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  bottom: 0;
+  position: fixed;
+  background-color: aliceblue;
+  color:cadetblue;
+  border-bottom: lightyellow;
+  box-shadow: grey 2px 1px 8px 0px;
+  height: 10em;
+  width: 100%;
 }

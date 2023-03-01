@@ -60,7 +60,7 @@ function pressAttackButton() {
 
 // This function will run when the user clicks the "Jump Up" button,
 // or presses SHIFT and the 'w' key
-function pressJumpUpButton() {
+function pressJumpUpButton(distance=3) {
     jumpUp();
     // TODO: execute the correct function from adventureLibrary.js below!
 
@@ -68,7 +68,7 @@ function pressJumpUpButton() {
 
 // This function will run when the user clicks the "Jump Down" button,
 // or presses SHIFT and the 's' key
-function pressJumpDownButton() {
+function pressJumpDownButton(distance=3) {
     jumpDown();
     // TODO: execute the correct function from adventureLibrary.js below!
 
@@ -76,7 +76,7 @@ function pressJumpDownButton() {
 
 // This function will run when the user clicks the "Jump Left" button,
 // or presses SHIFT and the 'a' key
-function pressJumpLeftButton() {
+function pressJumpLeftButton(distance=3) {
     jumpLeft();
     // TODO: execute the correct function from adventureLibrary.js below!
 
@@ -84,7 +84,7 @@ function pressJumpLeftButton() {
 
 // This function will run when the user clicks the "Jump Right" button,
 // or presses SHIFT and the 'd' key
-function pressJumpRightButton() {
+function pressJumpRightButton(distance=3) {
     jumpRight();
     // TODO: execute the correct function from adventureLibrary.js below!
 

@@ -1,14 +1,14 @@
+function plusFive(num) {
+return num
+}
 
-// function square(number) {
-//     return number * number;
-// }
-
-// //Save value in html
-// let result= square(4368);
-// document.getElementById("demo").
-// // innerHTML = result;
-
-let weather= "Partly Cloudy";
-let mydate = 27; mydate+1
-let temperature; temperature=78.2
-
+function increaseLargerN umber(x,y){
+    let larger;
+    if(x>=y){
+        larger=x;
+    }else{
+        larger=y;
+    }
+    return larger+5;
+}
+console.log(increaseLargerNumber(345, 44));

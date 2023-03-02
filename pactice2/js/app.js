@@ -2,7 +2,7 @@ function plusFive(num) {
 return num
 }
 
-function increaseLargerN umber(x,y){
+function increaseLargerNumber(x,y){
     let larger;
     if(x>=y){
         larger=x;
@@ -11,4 +11,5 @@ function increaseLargerN umber(x,y){
     }
     return larger+5;
 }
-console.log(increaseLargerNumber(345, 44));
+console.log(increaseLargerNumber(345, 414));
+

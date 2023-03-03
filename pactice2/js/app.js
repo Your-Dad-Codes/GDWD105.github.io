@@ -12,4 +12,3 @@ function increaseLargerNumber(x,y){
     return larger+5;
 }
 console.log(increaseLargerNumber(345, 414));
-

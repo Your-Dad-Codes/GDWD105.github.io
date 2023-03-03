@@ -1,0 +1,45 @@
+@font-face {
+    font-family: starwars;
+    src: url("./assets/SF\ Distant\ Galaxy\ AltOutline.ttf") format("opentype");
+}
+body{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 40px;
+    background-image:url(./assets/3.jpg)
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 5px;
+    color: rgb(228, 228, 80);
+    font-size: x-large;
+    font-family: starwars;
+}
+#hero{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    padding: 25px;
+
+}
+#countdown{
+    display: flex;
+    justify-items: center;
+    color: whitesmoke;
+    
+}
+p{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    padding: 25px;
+    text-align: center;
+    color: rgb(228, 228, 80);
+}
+

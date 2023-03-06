@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="utf-8">
+    <title>JS CALCULATOR</title>
+  </head>
+  <body>
+    <!-- 
+        Sometimes we gotta start small and remake the wheel.
+        A calculator is a monumental piece of tech but we can make 
+        a simple version to deconstruct some concepts.
+     -->
+    <div class="calc">
+      <div class="col_left">
+        <div class="calculator_wrapper result">
+          <h2>The Result:</h2>
+          <p id="answer"></p> 
+      </div>
+      </div>
+        <div class="col_right">
+          
+          <section class="calculator_wrapper">
+            <h1>THE WORLD'S WORST CALCULATOR</h1>
+
+            <h4>Pick a calculation:</h4>
+
+            <div class="button_wrapper">
+              <!-- Here, write at least three buttons 
+                with onclick attributes triggering our functions: -->
+              <button onclick="twoPlusTwo">2+2</button>
+              <button onclick="multiply (5,5)">multiply</button>
+              <button onclick="divide(5,5)">divide</button>
+            </div>
+          </section>
+
+          <section class="calculator_wrapper second_worst_calculator">
+            <h2>The Second Worst Calculator</h2>
+            <p>Enter two numbers and this will multiply them!</p>
+            <div class="selection_wrapper">
+                <label for="FirstNumber">First Number:</label>
+                <input type="number">
+                <br>
+                <label for="SecondNumber">Second Number:</label>
+                <input type="number">
+                <br>
+                <button onclick="multiplyTwoNumbers()">Solve</button>
+              </div>
+          </section>
+        </div>
+    </div>
+    <script src="./js/calc.js"></script>
+  </body>
+</html>

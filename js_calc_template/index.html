@@ -29,8 +29,8 @@
             <div class="button_wrapper">
               <!-- Here, write at least three buttons 
                 with onclick attributes triggering our functions: -->
-              <button onclick="twoPlusTwo">2+2</button>
-              <button onclick="multiply (5,5)">multiply</button>
+              <button onclick="twoPlusTwo()">2+2</button>
+              <button onclick="multiply(5,5)">multiply</button>
               <button onclick="divide(5,5)">divide</button>
             </div>
           </section>
@@ -40,10 +40,10 @@
             <p>Enter two numbers and this will multiply them!</p>
             <div class="selection_wrapper">
                 <label for="FirstNumber">First Number:</label>
-                <input type="number">
+                <input id="FirstNumber" type="number">
                 <br>
                 <label for="SecondNumber">Second Number:</label>
-                <input type="number">
+                <input id="SecondNumber" type="number">
                 <br>
                 <button onclick="multiplyTwoNumbers()">Solve</button>
               </div>

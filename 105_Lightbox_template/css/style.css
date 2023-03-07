@@ -6,9 +6,35 @@ body {
 .socials{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: left;
     color:blanchedalmond;
     background: none;
-    margin-top: 10px;
-    padding: 5px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.header-btm{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: darkolivegreen;
+    margin: 25px;
+    padding: 10px;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline;
+    margin: auto;
+    padding: 20px;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

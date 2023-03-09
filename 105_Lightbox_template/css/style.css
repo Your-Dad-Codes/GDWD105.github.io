@@ -1,40 +1,120 @@
-body {
-    background-color: rgb(214, 196, 173);
-    margin: auto;
-    padding: 10px
+body{
+    background-color: rgb(178, 135, 83);
 }
-.socials{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    color:blanchedalmond;
-    background: none;
-    margin-top: 20px;
-    padding: 15px;
-}
-
-.header-btm{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    text-decoration: darkolivegreen;
-    margin: 25px;
-    padding: 10px;
-}
-
-
 .navbar{
     display: flex;
-    flex-direction: row;
+
 }
-.menu{
+.navbar_socials{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 1rem;
+    
+}
+.navbar__search {
     display: flex;
-    flex-direction: row;
-    color: aliceblue;
-    text-align: center;
-    text-decoration: underline;
-    margin: auto;
-    padding: 20px;
-    font-size: larger;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: auto;
+  }
+  
+  .navbar__search input[type="text"] {
+    display: flex;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-left:auto;
+    margin-top: auto;
+    width: 200px;
+    font-size: 1rem;
+  }
+  
+  .navbar__search button {
+    display: flex;
+    background-color: rgb(61, 101, 55);
+    color: rgb(251, 244, 236);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+    }
+    
+    .navbar__search {
+      margin-bottom: 10px;
+    }
+    
+    .navbar__hamburger {
+      display: block;
+    }
+    
+    .navbar__menu {
+      display: none;
+    }
+    
+    .navbar__menu--show {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    
+    .navbar__menu a {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+
+
+.hero-text{
+    display: flex;
+    justify-content: center;
+}  
+h2{
+    font-family: cursive;
+    font-size: 160px;
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(61, 101, 55);
+    background-color: none;
+}
+.nav_link{
+   font-family: poppins;
+   font-weight: 500;
+   text-transform: uppercase;
+   text-decoration:none;
+   color:rgb(251, 244, 236);
+   margin: 0;
+   font-size: 40px;
+   letter-spacing: 1px;
+   display: flex;
+   justify-content: center;
+   margin-top:5em;
+}
+.nav_link :hover {
+    color:rgb(61, 101, 55);
+}
+
+a {
+    color:rgb(251, 244, 236);
+    padding: .5em;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.site-hero{
+    background:url(../images/anise-cinnamon-and-coffe-beans-2021-11-03-04-59-31-utc.jpg);
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+    background-repeat: none;
+    height: 75vh;
+    width: auto;
 }

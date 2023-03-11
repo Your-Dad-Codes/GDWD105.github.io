@@ -1,0 +1,158 @@
+body{
+    background-color: black;
+}
+main{
+    background-color: black;
+    background-size: cover;
+}
+
+.navbar{
+    top: 0;
+    bottom: 0;
+    margin: 25px;
+    padding: 36px;
+    background-color: rgb(18, 18, 18);
+}
+
+header{
+    background-image: url(./assets/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero{
+    display: inline-block;
+    align-items: center;
+
+}
+
+.hero-text{
+display: block;
+align-self: center;
+
+}
+
+.thin{
+    display: flex;
+    justify-content: center;
+    color: #f9f9f9;
+    align-items: center;
+}
+.thin-light{
+    display: flex;
+    justify-content: center;
+    color: #f9f9f9;
+    align-items: center;
+    font-size: x-small;
+}
+.thin-light a{
+    color: #f9f9f9;
+
+
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+.link{
+    font-weight:600;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+.link a{
+    color: #f9f9f9;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.link-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 5em;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li{
+    text-align: center;
+    text-decoration: none;
+    list-style:none;
+    padding: 36px;
+}
+li a{
+    color: #f9f9f9;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.input-group-text{
+    color: rgb(34, 34, 249);
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: inline-block;
+    align-content: center;
+}
+
+footer{
+    display: flex;
+    width: auto;
+    height: 15em;
+    justify-content: center;
+}
+
+.container-footer{
+    display: inline-block;
+    text-align: center;
+    color: #f9f9f9;
+    margin: 2em;
+
+}
+
+.footer-logo{
+    margin: 1em;
+    padding:2em;
+}
+.footer-copywrite{
+    display: flexbox;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    width: 100px;
+    height: auto;
+}
+.col a{
+    width: 50em;
+    height: 30em;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 55%;
+    padding: 200px;
+    margin: 200px;
+
+}
